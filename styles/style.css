@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.primary-title{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+/* header = banner + contact button */
+header {
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 801px;
+
+}
+
+.banner {
+    display: block;
+    text-align: right;
+    justify-content: right;
+    padding-top: 200px;
+    padding-left: 800px;
+    padding-right: 180px;
+    align-items: center;
+    border-top: 300px;
+
+}
+
+.banner-title {
+
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.description {
+    color: rgb(53, 53, 53);
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.button-one {
+    padding: 20px 35px;
+    background-color: orangered;
+    border: 0;
+    border-radius: 5px;
+    font-size: 24px;
+    color: white;
+    font-weight: 700px;
+}
+
+/* header end */
+/* main = previous year failure */
+.failure{
+    /* gap: 70px; */
+    padding: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.failure-text{
+    padding-top: 250px;
+}
+ul li::before{
+    content:"\2713\0020";
+}
+
+/* main = goals */
+.goals{
+    padding: 0 100px;
+
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    padding: 0 120px;
+}
+.skills{
+    padding: 10px 40px;
+}
+.skill-title{
+    font-size: 28px;
+    font-weight: 600;
+}
+.skill-goal{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+    justify-content: space-evenly;
+}
+/* text + 2 images + button combination */
+.positive-support{
+    display: flex;
+    border: 0;
+    align-items: center;
+    height: 301px;
+    width: 1140px;
+    margin: 120px 221px;
+    /* padding: 120px 221px; */
+    background-image: url(/images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.two-img-n-text{
+    padding: 20px 40px;
+}
+.button-two{
+    color: orangered;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: orangered;
+}
