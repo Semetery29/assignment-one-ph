@@ -2,7 +2,8 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.primary-title{
+
+.primary-title {
     font-size: 48px;
     font-weight: 700;
     padding-bottom: 30px;
@@ -55,44 +56,50 @@ header {
 
 /* header end */
 /* main = previous year failure */
-.failure{
+.failure {
     /* gap: 70px; */
     padding: 150px;
     display: flex;
     justify-content: space-evenly;
 }
-.failure-text{
+
+.failure-text {
     padding-top: 250px;
 }
+
 ul li::before{
-    content:"\2713\0020";
+    content: "\2713\0020";
 }
 
 /* main = goals */
-.goals{
+.goals {
     padding: 0 100px;
-
     text-align: center;
 }
-.skill-container{
+
+.skill-container {
     display: flex;
     padding: 0 120px;
 }
-.skills{
+
+.skills {
     padding: 10px 40px;
 }
-.skill-title{
+
+.skill-title {
     font-size: 28px;
     font-weight: 600;
 }
-.skill-goal{
+
+.skill-goal {
     font-size: 24px;
     font-weight: 500;
     color: rgb(53, 53, 53);
     justify-content: space-evenly;
 }
+
 /* text + 2 images + button combination */
-.positive-support{
+.positive-support {
     display: flex;
     border: 0;
     align-items: center;
@@ -105,16 +112,68 @@ ul li::before{
     background-position: left;
     background-size: contain;
 }
-.two-img-n-text{
+
+.two-img-n-text {
     padding: 20px 40px;
 }
-.button-two{
+
+.button-two {
     color: orangered;
     font-size: 24px;
     font-weight: 700;
     background-color: white;
     padding: 18px 35px;
     border-radius: 5px;
+    border: 0;
+}
+/* main = extra added section */
+.help-target{
+    background-color: antiquewhite;
+    padding: 120px;
+    margin-bottom: 120px;
+    margin-left: 221px;
+    margin-right: 221px;
+    border-radius: 10px;
+    border: 0 120px;
+    text-align: center;
+}
+.help-list{
+    font-size: 24px;
+}
+
+/* footer = contact and newsletter */
+.footer {
+    background-color: black;
+
+}
+
+.end-section {
+    display: flex;
+    padding: 130px 221px;
+    gap: 400px;
+}
+
+.contact {
+    color: white;
+}
+
+.footer-description {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.social {
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+#u-email {
+    background-color: black;
+    color: white;
     border-style: solid;
-    border-color: orangered;
+    border-radius: 5px;
+    border-color: gray;
+    font-size: 24px;
+    padding: 18px 28px;
+    margin: 18px 0;
 }
