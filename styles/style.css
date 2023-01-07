@@ -67,7 +67,7 @@ header {
     padding-top: 250px;
 }
 
-ul li::before{
+ul li::before {
     content: "\2713\0020";
 }
 
@@ -108,7 +108,7 @@ ul li::before{
     margin: 120px 221px;
     /* padding: 120px 221px; */
     background-image: url(/images/gradient2.png), url(../images/watch.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat,repeat;
     background-position: left;
     background-size: contain;
 }
@@ -126,8 +126,9 @@ ul li::before{
     border-radius: 5px;
     border: 0;
 }
+
 /* main = extra added section */
-.help-target{
+.help-target {
     background-color: antiquewhite;
     padding: 120px;
     margin-bottom: 120px;
@@ -137,7 +138,8 @@ ul li::before{
     border: 0 120px;
     text-align: center;
 }
-.help-list{
+
+.help-list {
     font-size: 24px;
 }
 
