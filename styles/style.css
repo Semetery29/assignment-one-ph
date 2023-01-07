@@ -107,9 +107,9 @@ ul li::before {
     width: 1140px;
     margin: 120px 221px;
     /* padding: 120px 221px; */
-    background-image: url(/images/gradient2.png), url(../images/watch.png);
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
     background-repeat: no-repeat,repeat;
-    background-position: left;
+    background-position: center;
     background-size: contain;
 }
 
